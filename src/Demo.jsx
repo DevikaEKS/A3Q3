@@ -1,8 +1,7 @@
-
 import React, { useState, useRef } from 'react';
-import './App.css';
+import './Demo.css';
 
-function App() {
+function Demo() {
   const [showSkillInput, setShowSkillInput] = useState(false);
   const [skillInput, setSkillInput] = useState('');
   const [skills, setSkills] = useState([]);
@@ -151,4 +150,4 @@ function App() {
   );
 }
 
-export default App;
+export default Demo;
